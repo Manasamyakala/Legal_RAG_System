@@ -243,22 +243,3 @@ sudo apt-get install build-essential
 # macOS
 xcode-select --install
 ```
-
-## Project Structure
-
-```
-RAG/
-├── README.md                 <- You are here
-├── requirements.txt          <- Python dependencies
-├── .env.example               <- Template for your API keys
-├── main.py                   <- Entry point — ties all 6 steps together
-├── Learnings/                 <- Drop your .pdf/.txt/.docx files here
-└── src/
-    ├── __init__.py           <- Makes src/ a Python package
-    ├── document_loader.py    <- Step 1: Load documents from disk
-    ├── chunker.py             <- Step 2: Split documents into chunks
-    ├── embedder.py             <- Step 3: Convert text to vectors
-    ├── vector_store.py        <- Step 4: Store/search vectors with FAISS
-    ├── retriever.py             <- Step 5: Retrieve relevant chunks
-    └── generator.py            <- Step 6: Generate answers with LLM
-```
