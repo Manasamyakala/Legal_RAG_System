@@ -1,0 +1,13 @@
+Acme Corp Internal Handbook -- Information Security Policy
+
+Section 9.1: Password Requirements
+
+All employee accounts must use passwords at least 12 characters long, containing a mix of uppercase, lowercase, numbers, and symbols. Passwords must be rotated every 90 days.
+
+Section 9.4: Two-Factor Authentication
+
+Two-factor authentication (2FA) is mandatory for all accounts with access to production systems or customer data. Acceptable 2FA methods include an authenticator app or a hardware security key; SMS-based 2FA is discouraged due to SIM-swapping risk.
+
+Section 9.7: Incident Reporting
+
+Any suspected security incident, including a lost device or a suspicious email, must be reported to security@acmecorp.example within 24 hours of discovery.

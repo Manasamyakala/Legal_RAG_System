@@ -1,0 +1,11 @@
+Acme Corp Internal Handbook -- Refund Policy
+
+Section 4.2: Customer Refunds
+
+Customers may request a full refund within 30 days of purchase if the product is unused and in its original packaging. Refund requests made between 31 and 60 days after purchase are eligible for store credit only, not a cash refund.
+
+Digital products (software licenses, downloadable content) are non-refundable once the license key has been issued, except where required by local consumer protection law.
+
+To request a refund, customers should contact support@acmecorp.example with their order number. Refunds are processed within 5-7 business days after approval.
+
+Refunds for annual subscription plans are prorated based on the number of unused months remaining, minus a 10% administrative fee.
