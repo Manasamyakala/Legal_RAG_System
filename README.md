@@ -1,4 +1,4 @@
-# RAG from Scratch 🔍
+# RAG from Scratch 
 
 A beginner-friendly implementation of Retrieval-Augmented Generation (RAG) built step-by-step using LangChain, FAISS, and HuggingFace embeddings. Every file is heavily commented to explain *why* each piece exists, not just what it does.
 
@@ -8,15 +8,7 @@ Two real runs, no OpenAI key needed — this uses a small model running locally 
 
 The most important test for any RAG system: does it actually answer from your documents, and does it admit when it doesn't know rather than making something up?
 
-![Hallucination check — grounded answer vs. correct refusal](screenshots/hallucination-check.png)
-
 And a real question answered from the actual PDF content that ships in `Learnings/`:
-
-![A real question answered from the PDFs](screenshots/real-question.png)
-
-## No Coding Experience? Start Here.
-
-Every word in this README that sounds technical — LLM, RAG, vector, embedding, chunk, FAISS, LangChain — is explained below in plain language, with no assumed background. If you already know what these mean, skip to [What is RAG and Why Does It Matter?](#what-is-rag-and-why-does-it-matter).
 
 **LLM (Large Language Model).** This is the "AI" part — programs like GPT-4, Claude, or Llama. An LLM has read an enormous amount of text (books, websites, articles) and learned to predict what word comes next well enough to hold a conversation, answer questions, and write like a person. Think of it as an extremely well-read assistant with one catch: it has never seen *your* documents, and everything it knows stops at whatever date it was trained.
 
