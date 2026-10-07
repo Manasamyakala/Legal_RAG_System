@@ -24,7 +24,7 @@ And a real question answered from the actual PDF content that ships in `Learning
 
 **RAG (Retrieval-Augmented Generation).** The idea that ties everything together. Imagine asking a very well-read friend a question, but instead of trusting their memory (which might be outdated, or just wrong), you hand them the exact relevant pages from your own notes and say: "Answer using only this." That's RAG — **Retrieval** (find the relevant pages) plus **Augmented Generation** (let the LLM write an answer using those pages, not its own memory).
 
-### What Actually Happens When You Ask a Question — In Plain English
+### What Actually Happens When You Ask a Question 
 
 1. **Your documents get cut into small pieces.** A 10-page PDF might become 40 small chunks, a few paragraphs each.
 2. **Each chunk gets a "meaning fingerprint."** Every chunk is converted into a vector — a list of numbers standing in for what that chunk is *about*.
@@ -60,7 +60,7 @@ source venv/bin/activate        # macOS / Linux
 pip install -r requirements.txt
 ```
 
-⏱️ First install may take a few minutes. `faiss-cpu` and `sentence-transformers` are the largest packages.
+ First install may take a few minutes. `faiss-cpu` and `sentence-transformers` are the largest packages.
 
 **3. Configure your API key**
 
@@ -74,7 +74,7 @@ Open `.env` and replace `your_openai_api_key_here` with your actual key from pla
 OPENAI_API_KEY=sk-...your-key-here...
 ```
 
-💡 No OpenAI account? Use a local model with Ollama — see [Using Ollama](#using-ollama-no-api-key-needed) below.
+ No OpenAI account? Use a local model with Ollama — see [Using Ollama](#using-ollama-no-api-key-needed) below.
 
 **4. Add your documents**
 
