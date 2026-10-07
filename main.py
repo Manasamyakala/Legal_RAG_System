@@ -12,7 +12,7 @@ import os
 
 from dotenv import load_dotenv
 
-from src.document_loader import load_documents  # noqa: F401  (imported for clarity in --debug hints)
+from src.document_loader import load_documents  
 from src.embedder import get_embedder
 from src.generator import build_qa_chain, get_llm
 from src.retriever import get_retriever
